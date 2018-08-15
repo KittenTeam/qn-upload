@@ -1,0 +1,34 @@
+{
+  "name": "qn-upload",
+  "version": "1.0.0",
+  "description": "七牛上传工具",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "qnupload",
+    "upload",
+    "cdn"
+  ],
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0"
+  },
+  "author": "zczhangchao51",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "globby": "^8.0.1",
+    "qiniu": "^7.2.1",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
